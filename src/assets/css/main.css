@@ -1,0 +1,78 @@
+@font-face {
+    font-family: stilu;
+    src: url(../font/Stilu-Regular.otf);
+  }
+  
+.v-application{
+    font-family: stilu;
+    height: 100%;
+    font-size:14px;
+}
+
+.menuSamping.v-list-item{
+    margin: 12px auto !important;
+}
+body::-webkit-scrollbar {
+    display:none;
+}
+.hrJudul{
+    width:100%; border:none; background-color: rgba(0, 0, 0, 0.12); height:0.5px;
+}
+.v-navigation-drawer{
+    background-color: #172A3A!important;
+}
+.v-content__wrap
+{
+    background-color:white !important;
+}
+.v-input.myForm, .v-input.mySelect, .v-input.myFormFile{
+    font-size:inherit !important;
+}
+.myForm.v-input--selection-controls{
+    margin-top:0 !important;
+    padding-top:0 !important;
+}
+.mySelect .v-select__selections{
+    padding:0px !important;
+}
+.myForm input{
+    padding:0px !important;
+}
+.myForm .v-input__slot{
+    min-height:0px !important;
+    padding:8px 12px !important;
+    background-color: white !important;
+}
+.mySelect .v-input__slot{
+    min-height:0px !important;
+    padding:3px 12px !important;
+    background-color: white !important;
+}
+.myForm.myCheck .v-label{
+    font-size:inherit !important;
+    color:inherit !important;
+}
+.mySelect .v-input__append-inner
+{
+    margin-top: 4px !important;
+}
+.mySelect.v-select--chips .v-input__append-inner
+{
+    margin-top: 7.5px !important;
+}
+.myForm textarea{
+    margin-top:0px !important;
+}
+.myFormFile .v-input__slot{
+    min-height:0px !important;
+    padding:0px 12px !important;
+    background-color: white !important;
+}
+.mySelect.v-select--chips .v-input__control{
+    min-height: 40px !important;
+}
+.v-tab{
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-weight: bold;
+}
